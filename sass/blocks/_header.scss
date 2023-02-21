@@ -1,0 +1,48 @@
+//header
+.header {
+    min-height: 80px;
+}
+
+//navigation
+.header__nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+}
+.navigation__item {
+    margin-right: 20px;
+}
+
+.header__logo {
+    justify-self: center;
+}
+
+.header__basket {
+    justify-self: end;
+    position: relative;
+
+    span {
+        display: inline-block;
+        font-size: 11px;
+        color: var(--white);
+        width: 16px;
+        height: 16px;
+        background-color: var(--grey);
+        border-radius: 50%;
+        position: absolute;
+        right: -5px;
+        top: 12px;
+        z-index: 2;
+        padding: 3px 2px;
+    }
+
+    &.header__basket-empty {
+        span {
+            display: none;
+        }
+    }
+}

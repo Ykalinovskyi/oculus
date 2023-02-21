@@ -1,0 +1,37 @@
+@import "./fonts";
+@import "./variables";
+
+html {
+    box-sizing: border-box;
+  }
+  
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
+  background-color: var(--white);
+}
+
+.container {
+  max-width: 1350px;
+  padding: 15px;
+  margin: 0 auto ;
+}
+
+@import "./blocks/_header";
