@@ -20,18 +20,31 @@ img {
   max-width: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   font-family: "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.4;
   color: var(--grey);
   background-color: var(--white);
 }
 
 .container {
-  max-width: 1350px;
-  padding: 15px;
+  max-width: 1220px;
+  padding: 0 10px;
   margin: 0 auto ;
 }
 
 @import "./blocks/_header";
+@import "./blocks/hero";
