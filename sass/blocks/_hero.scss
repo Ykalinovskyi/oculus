@@ -1,35 +1,26 @@
 .hero {
-
     height: calc(100vh - 81px);
     background: url("../../images/hero-bg.jpg") no-repeat bottom center;
     background-size: cover;
-		// .hero__title
-
-		&__title {
+    
+      &__title {
             padding-top: 14%;
             font-size: 96px;
             font-weight: 400;
             margin-bottom: 10px;
+      }
 
-		}
-
-		// .hero__subtitle
-
-		&__subtitle {
+      &__subtitle {
             font-size: 36px;
             margin-bottom: 5px;
-		}
+      }
 
-		// .hero__text
-
-		&__text {
+      &__text {
             font-size: 13px;
             margin-bottom: 50px;
-		}
+      }
 
-		// .hero__btn
-
-		&__btn {
+      &__btn {
             cursor: pointer;
             border: none;
             padding: 0;
@@ -41,30 +32,23 @@
             color: inherit;
             display: flex; 
             padding: 1px;
-        }
+      }
 
-
-		// .hero__btn-text
-
-		&__btn-text {
+      &__btn-text {
             font-size: 16px;
             font-weight: 600;
             color: #E9E7EA;
             padding: 20px 110px;
-		}
+      }
 
-		// .hero__btn-price
-
-		&__btn-price {
+      &__btn-price {
             font-size: 16px;
             font-weight: 600;
             background-color: var(--btn-white);
             padding: 20px 105px;
-		}
+      }
 
-		// .hero__text-buy
-
-		&__text-buy {
+      &__text-buy {
             font-size: 13px;
-		}
+      }
 }
