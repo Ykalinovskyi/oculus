@@ -185,6 +185,31 @@ body {
   font-size: 13px;
 }
 
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 66px;
+  }
+  .hero__subtitle {
+    font-size: 24px;
+  }
+}
+@media (max-width: 568px) {
+  .hero {
+    text-align: center;
+  }
+  .hero__btn {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 420px) {
+  .hero__title {
+    font-size: 48px;
+  }
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
 .features {
   padding: 100px 0;
 }
@@ -252,6 +277,7 @@ body {
 .tabs__content-image {
   grid-row: 1/-1;
   align-self: stretch;
+  object-fit: cover;
 }
 
 .tabs__content-box h3 {
@@ -284,6 +310,39 @@ body {
   font-size: 13px;
 }
 
+@media (max-width: 992px) {
+  .tabs {
+    display: block;
+  }
+  .tabs__btn {
+    display: block;
+    column-count: 2;
+  }
+  .tabs__btn-item {
+    display: block;
+  }
+}
+@media (max-width: 568px) {
+  .features__title {
+    display: block;
+  }
+  .tabs__content-item {
+    display: block;
+  }
+  .video {
+    margin-top: 20px;
+    width: auto;
+    height: 250px;
+  }
+}
+@media (max-width: 420px) {
+  .features__text {
+    font-size: 32px;
+  }
+  .tabs__btn {
+    column-count: 1;
+  }
+}
 .games {
   margin-bottom: 100px;
 }
@@ -357,6 +416,17 @@ body {
   margin-top: auto;
 }
 
+@media (max-width: 992px) {
+  .games__inner {
+    grid-template-columns: repeat(2, 1rf);
+    gap: 25px;
+  }
+}
+@media (max-width: 568px) {
+  .games__inner {
+    grid-template-columns: repeat(2, 1rf);
+  }
+}
 .buy {
   margin-bottom: 110px;
   text-align: center;

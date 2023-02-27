@@ -52,3 +52,34 @@
             font-size: 13px;
       }
 }
+
+
+@media(max-width: 768px) {
+      .hero__title {
+            font-size: 66px;
+      }   
+      .hero__subtitle {
+            font-size: 24px;
+      }   
+}
+
+@media(max-width: 568px) {
+      .hero {
+            text-align: center;
+      }
+
+      .hero__btn {
+            flex-direction: column;
+            margin: 0 auto;
+      }
+
+}
+
+@media(max-width: 420px) {
+      .hero__title {
+            font-size: 48px;
+      }
+      .hero__subtitle {
+            font-size: 20px;
+      }
+}
