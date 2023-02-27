@@ -40,11 +40,13 @@
      padding: 16px 15px 12px;
      width: 225px;
      text-align: center;
-     border: 1px solid #bc10d8;
+     border: 1px solid;
+    border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 }
 
 .games__item {
-    border: 1px solid #bc10d8;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
     padding: 10px 20px 18px; 
     display: flex;
     flex-direction: column;
