@@ -20,6 +20,17 @@ img {
   max-width: 100%;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -46,5 +57,14 @@ body {
   margin: 0 auto ;
 }
 
+.section- title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
+}
+
 @import "./blocks/_header";
 @import "./blocks/hero";
+@import "./blocks/tabs";
+@import "./blocks/games";
