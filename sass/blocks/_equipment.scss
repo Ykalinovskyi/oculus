@@ -30,3 +30,20 @@
     grid-row: 1/-1;
 }
 
+@media(max-width: 820px) {
+    .equipment__box {
+        grid-template-columns: repeat(3, 1fr);  
+    }
+}
+@media(max-width: 568px) {
+    .equipment__box {
+        display: block;
+    }
+    .equipment__box-img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .equipment__box-text {
+        margin-bottom: 10px;    
+    }
+}

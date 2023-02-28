@@ -23,3 +23,12 @@ function openContent(event) {
 
     document.querySelector(`#${button}`).classList.add('tabs__content-item--active')
 }
+
+//burger
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.navigation__list');
+
+menuBtn.addEventListener('click', ()=> {
+    menu.classList.toggle('navigation__list--active')
+})

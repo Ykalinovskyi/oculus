@@ -58,7 +58,7 @@
 
     opacity: 0;
     position: absolute;
-
+ 
     transition: opacity .3s ease-in;
 
     &.tabs__content-item--active {
@@ -127,6 +127,11 @@
     }
     .tabs__content-item {
         display: block;
+        height: 0;
+        position: relative;
+    }
+    .tabs__content-item--active {
+        height: auto;
     }
     .video {
         margin-top: 20px;
